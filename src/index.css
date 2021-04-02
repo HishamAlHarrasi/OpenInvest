@@ -54,9 +54,8 @@ code {
   text-align: center;
   border: #0275d8 solid 3px;
   flex-grow: inherit;
-
+  
 }
-
 
 .move-left {
   text-align: left;
@@ -68,4 +67,46 @@ code {
   margin-left: 60px;
   font-size: large;
 }
+
+.flex-container-vb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 1);
+  justify-content:space-evenly;
+  margin: 20px;
+  border: #0275d8 solid 2px;
+  margin-top: 35px;
+}
+
+.inner-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  width: 800%;
+  justify-content:space-evenly;
+}
+
+.flex-item-vb {
+  padding: 1%;
+  text-align: left;
+  flex-direction: column;
+  flex-grow: inherit;
+  
+}
+  .inner-column {
+  padding: 1%;
+  text-align: left;
+  flex-direction: column;
+  flex-grow: inherit;
+}
+
+.inner-column p {
+  padding: 3px;
+}
+
+
+
 

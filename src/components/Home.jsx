@@ -39,7 +39,9 @@ export default class Home extends Component {
             availability of your token due to the fact that it is served on a
             decentralised blockchain. Additionally, they are incentivised by the
             increase in value of your token if it is gaining momentum and is
-            succesful, similar to how stocks work.
+            succesful, similar to how stocks work. After all, these tokens are
+            backed by the real value of your business, so the more your business
+            grows, the more your investors gain.
           </p>
           <p>
             <b>If you are an investor, </b> investing in a company on OpenInvest
